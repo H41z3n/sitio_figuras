@@ -115,6 +115,16 @@ body, html {
   pointer-events: none;
 }
 
+/* Modo Daltonismo */
+.daltonism-mode body,
+.daltonism-mode .navbar,
+.daltonism-mode .gallery-container,
+.daltonism-mode .form-container,
+.daltonism-mode .main-image {
+  filter: grayscale(100%);
+}
+
+
 /* Ajustes para responsividad */
 @media (max-width: 768px) {
   .product-gallery {

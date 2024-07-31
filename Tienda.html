@@ -15,6 +15,7 @@
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body class="bg-dark text-white">
   <!-- Barra superior con logo, redes sociales e icono del carrito -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -23,6 +24,15 @@
         <img src="img/logo_tienda.png" alt="Logo" width="40" height="34" class="d-inline-block align-text-top me-2">
         <img src="img/letras_logo.png" alt="LogoLetras" width="140" height="40" class="d-inline-block align-text-top me-2">
       </a>
+
+      <!-- Botón para activar/desactivar el modo daltonismo -->
+      <button id="toggleDaltonismMode" class="btn btn-link p-0 ms-3">
+        <img src="img/daltonismo.png" alt="Modo Daltonismo" width="34" height="34">
+      </button>
+
+      <!-- Script para activar/desactivar el modo daltonismo -->
+      <script src="javascript/javascript.js"></script>
+
       <div class="social-icons mx-2">
         <ul class="navbar-nav">
           <li class="nav-item">
@@ -49,7 +59,7 @@
   <div class="container-fluid p-0 bg-dark">
     <div class="position-relative w-100" style="height: 90vh;">
       <!-- Imagen de fondo -->
-      <img src="img/imagen_main.jpg" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="Imagen Main">
+      <img src="img/imagen_main.jpg" class="img-fluid w-100 h-100 main-image" style="object-fit: cover;" alt="Imagen Main">
 
       <!-- Hiperenlaces verticales en la esquina superior derecha -->
       <div class="position-absolute top-0 end-0 p-3 text-end text-vertical">
@@ -132,6 +142,7 @@
       </div> <!-- Fin del contenedor de la galería -->
     </div> <!-- Fin del contenedor principal con imagen de fondo -->
   </div> <!-- Fin del contenedor principal -->
+
 </body>
 </html>
 
