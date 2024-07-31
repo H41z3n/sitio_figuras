@@ -110,6 +110,11 @@ body, html {
   color: white; /* Color del texto */
 }
 
+/* Desactivar el cambio de puntero */
+.no-pointer {
+  pointer-events: none;
+}
+
 /* Ajustes para responsividad */
 @media (max-width: 768px) {
   .product-gallery {
